@@ -1,0 +1,80 @@
+ERROR - 2024-03-18 08:12:42 --> Duplicate entry 'Malang' for key 'nama_tujuan'
+CRITICAL - 2024-03-18 08:12:42 --> Duplicate entry 'Malang' for key 'nama_tujuan'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tujuan`...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tujuan`...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tujuan`...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tujuan`...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\kendaraan\system\BaseModel.php(656): CodeIgniter\Model->update('26', Array)
+#8 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(2242): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->edit_tujuan('26')
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#11 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-03-18 08:31:02 --> Undefined array key "id_pengguna"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(2186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2186)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-18 08:31:24 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 312)
+#1 C:\xampp\htdocs\kendaraan\system\Database\Query.php(312): implode(',', Array)
+#2 C:\xampp\htdocs\kendaraan\system\Database\Query.php(293): CodeIgniter\Database\Query->matchNamedBinds('SELECT `nama_pe...', Array)
+#3 C:\xampp\htdocs\kendaraan\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `nama_pe...', Array, false)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#7 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#8 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(2186): CodeIgniter\BaseModel->findAll()
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#11 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2024-03-18 08:34:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc' at line 5
+CRITICAL - 2024-03-18 08:34:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'asc' at line 5
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `detail_...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detail_...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detail_...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `detail_...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(2184): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-18 09:03:34 --> strtoupper(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(127): strtoupper(Array)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-18 09:04:35 --> strtoupper(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(103): strtoupper(Array)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-18 09:58:31 --> Undefined property: PHPMailer\PHPMailer\PHPMailer::$addAddress
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-18 09:59:00 --> Array to string conversion
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,152 @@
+CRITICAL - 2024-05-17 07:55:11 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('admin/v_login', Array, true)
+#3 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(358): view('admin/v_login', Array)
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-17 08:07:01 --> asort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(177): asort(NULL)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-17 08:07:47 --> asort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(177): asort(NULL)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-17 08:08:13 --> Undefined variable $cek_email1
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(354): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 354)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-17 08:32:37 --> Undefined array key "id_pegguna"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 330)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-17 08:33:13 --> Undefined array key "id_pegguna"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(332): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 332)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-17 08:33:45 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(731): CodeIgniter\Database\BaseBuilder->_whereIn('id_pengguna', '591', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\kendaraan\system\Model.php(728): CodeIgniter\Database\BaseBuilder->whereIn('id_pengguna', '591')
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(332): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-17 08:38:41 --> Undefined variable $cek_email1
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(358): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 358)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-17 08:49:48 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->post_login()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-17 08:58:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(401): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 401)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->superuser()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-17 09:17:21 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kendaraan\app\Views\master\v_pengguna.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 286)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('master/v_penggu...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(2170): view('master/v_penggu...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->pengguna()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 09:17:44 --> Undefined array key "username"
+#0 C:\xampp\htdocs\kendaraan\app\Views\master\v_pengguna.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 286)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('master/v_penggu...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(2170): view('master/v_penggu...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->pengguna()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-05-17 09:40:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`pengguna`, `nama_pengguna`
+ORDER BY `username` ASC' at line 5
+CRITICAL - 2024-05-17 09:40:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`pengguna`, `nama_pengguna`
+ORDER BY `username` ASC' at line 5
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `usernam...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(2160): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->pengguna()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-17 09:42:14 --> Undefined array key "nama_pengguna"
+#0 C:\xampp\htdocs\kendaraan\app\Views\master\v_pengguna.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 311)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('master/v_penggu...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(2172): view('master/v_penggu...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->pengguna()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 09:42:27 --> Undefined array key "nama_pengguna"
+#0 C:\xampp\htdocs\kendaraan\app\Views\master\v_pengguna.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 311)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('master/v_penggu...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(2172): view('master/v_penggu...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->pengguna()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 09:42:48 --> Undefined array key "nama_pengguna"
+#0 C:\xampp\htdocs\kendaraan\app\Views\master\v_pengguna.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 311)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('master/v_penggu...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(2172): view('master/v_penggu...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->pengguna()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-17 14:30:31 --> Undefined property: App\Controllers\Admin\Transaksi::$m_email_delegasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

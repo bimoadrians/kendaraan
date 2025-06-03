@@ -1,0 +1,76 @@
+CRITICAL - 2024-06-04 09:18:16 --> Undefined array key "pic"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5662): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 5662)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('4', '2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-04 09:23:08 --> Undefined variable $id_transportasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6098): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6098)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess('4', '2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-04 09:32:52 --> Undefined variable $pengemudi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6105)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess('4', '2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-04 09:33:50 --> Undefined variable $transportasi_antar
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6111): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess('4', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-04 09:41:49 --> Undefined variable $transportasi_antar
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6111): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess('4', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-04 10:32:58 --> Undefined variable $transportasi_antar
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6111): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess('4', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-04 10:34:10 --> Undefined variable $transportasi_antar
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6111): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess('4', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-04 11:16:15 --> Undefined variable $transportasi_antar
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6111): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess('4', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

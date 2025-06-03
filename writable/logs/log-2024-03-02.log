@@ -1,0 +1,173 @@
+CRITICAL - 2024-03-02 08:21:44 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(731): CodeIgniter\Database\BaseBuilder->_whereIn('email_user', 'ananta@konimex....', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\kendaraan\system\Model.php(728): CodeIgniter\Database\BaseBuilder->whereIn('email_user', 'ananta@konimex....')
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(144): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2024-03-02 08:22:11 --> Unknown column 'email_user' in 'where clause'
+CRITICAL - 2024-03-02 08:22:11 --> Unknown column 'email_user' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_pool...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_pool...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_pool...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_pool...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(144): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-03-02 08:47:49 --> Undefined variable $akun
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-02 08:48:04 --> Undefined variable $arr_nama
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Admin.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 175)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Admin->login()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-02 09:36:37 --> Class "App\Models\Am21bModel" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Transaksi->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-02 09:37:43 --> Class "App\Controllers\Admin\Am21bModel" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Transaksi->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-02 09:37:44 --> Class "App\Controllers\Admin\Am21bModel" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Transaksi->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-02 09:37:45 --> Class "App\Controllers\Admin\Am21bModel" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Transaksi->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-02 09:37:45 --> Class "App\Controllers\Admin\Am21bModel" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Transaksi->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-02 09:38:10 --> Class "App\Models\Am21Model" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Master->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-02 09:38:10 --> Class "App\Models\Am21Model" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Master->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-03-02 09:54:23 --> Undefined property: App\Controllers\Admin\Master::$m_jabatan
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->jabt('1')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-02 09:55:04 --> Class "App\Models\JabatanModel" not found
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(809): App\Controllers\Admin\Master->__construct()
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2024-03-02 10:22:07 --> Table 'db_kendaraan.transaksi' doesn't exist
+CRITICAL - 2024-03-02 10:22:07 --> Table 'db_kendaraan.transaksi' doesn't exist
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('ALTER TABLE tra...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE tra...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE tra...')
+#3 C:\xampp\htdocs\kendaraan\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('ALTER TABLE tra...')
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(58): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->dept()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-02 10:22:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->dept()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-02 11:39:48 --> Undefined variable $jenis_biaya
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->edit_dept('1')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-02 12:08:50 --> There is no data to insert.
+#0 C:\xampp\htdocs\kendaraan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(84): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->dept()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-02 12:09:49 --> There is no data to insert.
+#0 C:\xampp\htdocs\kendaraan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(85): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->dept()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-02 12:21:19 --> Undefined variable $id_jabatan
+#0 C:\xampp\htdocs\kendaraan\app\Views\master\v_jabt.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('master/v_jabt', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(198): view('master/v_jabt', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->jabt('1')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-02 12:22:26 --> Undefined variable $bag
+#0 C:\xampp\htdocs\kendaraan\app\Views\master\v_jabt.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('master/v_jabt', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(198): view('master/v_jabt', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->jabt('1')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-03-02 12:22:46 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`jabatan`, CONSTRAINT `jabatan_ibfk_1` FOREIGN KEY (`id_bagian`) REFERENCES `bagian` (`id_bagian`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2024-03-02 12:22:46 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`jabatan`, CONSTRAINT `jabatan_ibfk_1` FOREIGN KEY (`id_bagian`) REFERENCES `bagian` (`id_bagian`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ja...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ja...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ja...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ja...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Master.php(177): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Master->jabt('1')
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Master))
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2024-02-22 13:13:07 --> Class "Theme" not found
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_tra...', Array, true)
+#3 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(266): view('transaksi/v_tra...', Array)
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans_add()
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

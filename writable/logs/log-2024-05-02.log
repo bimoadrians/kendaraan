@@ -1,0 +1,568 @@
+CRITICAL - 2024-05-02 08:26:18 --> Undefined array key "harga_akomodasi"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_trans.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_tra...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(193): view('transaksi/v_tra...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 08:26:54 --> Undefined array key "harga_akomodasi"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_trans.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_tra...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(193): view('transaksi/v_tra...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-05-02 09:38:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-02 09:38:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_akom...', Array, false)
+#2 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(3501): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tiket_admin()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 11:23:29 --> Undefined array key "harga_tiket"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_edit_tiket.php(646): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 646)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_edi...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4134): view('transaksi/v_edi...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_tiket('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 11:38:45 --> Undefined array key "harga_hotel"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_edit_akomodasi.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 341)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_edi...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4943): view('transaksi/v_edi...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 11:43:43 --> Undefined variable $pengguna
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_edit_akomodasi.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_edi...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4943): view('transaksi/v_edi...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 11:44:42 --> Undefined array key "id_bagian"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4926): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 4926)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 11:53:10 --> Undefined variable $jumlah_kamar
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4705): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4705)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 11:54:25 --> Undefined variable $tanggal_jam_masuk
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4774): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4774)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-05-02 13:09:28 --> Unknown column 'trans.id_trans' in 'where clause'
+CRITICAL - 2024-05-02 13:09:28 --> Unknown column 'trans.id_trans' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_akom...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_akom...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_akom...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_akom...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4697): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 13:09:49 --> Unknown column 'trans.id_trans' in 'where clause'
+CRITICAL - 2024-05-02 13:09:49 --> Unknown column 'trans.id_trans' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_akom...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_akom...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_akom...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_akom...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4697): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 13:12:02 --> Unknown column 'batal' in 'where clause'
+CRITICAL - 2024-05-02 13:12:02 --> Unknown column 'batal' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_akom...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_akom...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_akom...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_akom...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4697): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('2', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-02 13:37:28 --> Undefined variable $pengguna
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_edit_transportasi_antar.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_edi...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5659): view('transaksi/v_edi...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_transportasi_antar('3', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 13:38:43 --> Undefined array key "id_bagian"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5650): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 5650)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_transportasi_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 13:57:31 --> Undefined variable $a
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5504): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5504)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_transportasi_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 14:03:03 --> Undefined array key "keterangan_gs"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_edit_transportasi_antar.php(565): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 565)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_edi...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5658): view('transaksi/v_edi...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_transportasi_antar('3', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-05-02 14:03:20 --> Column 'keterangan_gs' in field list is ambiguous
+CRITICAL - 2024-05-02 14:03:20 --> Column 'keterangan_gs' in field list is ambiguous
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `transpo...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transpo...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transpo...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `transpo...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5634): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_transportasi_antar('3', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-02 14:09:45 --> Undefined array key "menginap"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_edit_transportasi_antar.php(485): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 485)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_edi...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5658): view('transaksi/v_edi...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_transportasi_antar('3', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-05-02 15:09:46 --> Column 'status_mobil' in field list is ambiguous
+CRITICAL - 2024-05-02 15:09:46 --> Column 'status_mobil' in field list is ambiguous
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `transpo...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transpo...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transpo...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `transpo...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5207): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->batal_transport('3', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 15:10:31 --> Column 'id_trans' cannot be null
+CRITICAL - 2024-05-02 15:10:31 --> Column 'id_trans' cannot be null
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kendaraan\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5230): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->batal_transport('3', '1', '')
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#11 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-05-02 15:11:26 --> Undefined variable $id_transportasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5224)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->batal_transport('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-05-02 19:42:20 --> Unknown column 'batal' in 'field list'
+CRITICAL - 2024-05-02 19:42:20 --> Unknown column 'batal' in 'field list'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5118): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transport_admin()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 19:42:58 --> Unknown column 'batal' in 'field list'
+CRITICAL - 2024-05-02 19:42:58 --> Unknown column 'batal' in 'field list'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5118): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->transport_admin()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 19:43:41 --> Unknown column 'batal' in 'field list'
+CRITICAL - 2024-05-02 19:43:41 --> Unknown column 'batal' in 'field list'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(3600): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tiket_admin()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 19:44:02 --> Unknown column 'batal' in 'field list'
+CRITICAL - 2024-05-02 19:44:02 --> Unknown column 'batal' in 'field list'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(3600): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tiket_admin()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 19:44:26 --> Unknown column 'batal' in 'field list'
+CRITICAL - 2024-05-02 19:44:26 --> Unknown column 'batal' in 'field list'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(3599): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->tiket_admin()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 19:58:05 --> Unknown column 'batal' in 'field list'
+CRITICAL - 2024-05-02 19:58:05 --> Unknown column 'batal' in 'field list'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(166): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:02:06 --> Unknown column 'batal' in 'where clause'
+CRITICAL - 2024-05-02 20:02:06 --> Unknown column 'batal' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `akomoda...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `akomoda...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `akomoda...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `akomoda...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(320): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->eval_akomodasi_user()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:02:07 --> Unknown column 'batal' in 'where clause'
+CRITICAL - 2024-05-02 20:02:07 --> Unknown column 'batal' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tiket`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tiket`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tiket`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tiket`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(130): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->eval_tiket_user()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:04:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`created_at`
+FROM `trans`
+LEFT JOIN `tiket` ON `tiket`.`id_trans` = `trans`....' at line 1
+CRITICAL - 2024-05-02 20:04:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`created_at`
+FROM `trans`
+LEFT JOIN `tiket` ON `tiket`.`id_trans` = `trans`....' at line 1
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4076): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_tiket('7', '4', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:04:49 --> Unknown column 'batal' in 'where clause'
+CRITICAL - 2024-05-02 20:04:49 --> Unknown column 'batal' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4076): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_tiket('7', '4', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:05:29 --> Unknown column 'batal' in 'where clause'
+CRITICAL - 2024-05-02 20:05:29 --> Unknown column 'batal' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(4951): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_akomodasi('7', '4', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:07:03 --> Unknown column 'batal' in 'where clause'
+CRITICAL - 2024-05-02 20:07:03 --> Unknown column 'batal' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5807): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->edit_transportasi_antar('3', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:08:54 --> Unknown column 'batal' in 'where clause'
+CRITICAL - 2024-05-02 20:08:54 --> Unknown column 'batal' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tiket`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tiket`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tiket`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tiket`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(130): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->eval_tiket_user()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-05-02 20:16:22 --> Unknown column 'transportasi_jemput.batal_transportasi' in 'where clause'
+CRITICAL - 2024-05-02 20:16:22 --> Unknown column 'transportasi_jemput.batal_transportasi' in 'where clause'
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `trans`....', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `trans`....')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `trans`....')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `trans`....', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(526): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->eval_transport_user()
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-02 20:19:54 --> Undefined array key "batal"
+#0 C:\xampp\htdocs\kendaraan\app\Views\evaluasi\v_eval_transport_user.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('evaluasi/v_eval...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(546): view('evaluasi/v_eval...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->eval_transport_user()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 20:25:12 --> Undefined array key "batal"
+#0 C:\xampp\htdocs\kendaraan\app\Views\evaluasi\v_eval_transport_user.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('evaluasi/v_eval...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(546): view('evaluasi/v_eval...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->eval_transport_user()
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-02 20:44:27 --> Undefined variable $date
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 613)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 20:44:28 --> Undefined variable $date
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 613)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 20:44:32 --> Undefined variable $date
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 613)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 20:44:32 --> Undefined variable $date
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 613)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 20:47:31 --> Undefined variable $date
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 613)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-02 20:47:51 --> Undefined array key "jemput"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(619): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 619)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('3', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-05-02 21:45:27 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2024-05-02 21:45:27 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `e_...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `e_...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `e_...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `e_...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(680): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('10', '5', '')
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-02 21:48:31 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2024-05-02 21:48:31 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `e_...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `e_...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `e_...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `e_...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(680): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('10', '5', '')
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-02 21:56:31 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2024-05-02 21:56:31 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `e_...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `e_...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `e_...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `e_...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(680): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('10', '5', '')
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-02 22:18:43 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2024-05-02 22:18:43 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `e_...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `e_...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `e_...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `e_...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(680): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('10', '5', '')
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2024-05-02 22:34:37 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2024-05-02 22:34:37 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`e_transportasi`, CONSTRAINT `e_transportasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `tiket` (`id_tiket`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `e_...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `e_...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `e_...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `e_...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Evaluasi.php(678): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Evaluasi->detail_evaluasi_transport_antar('10', '5', '')
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Evaluasi))
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

@@ -1,0 +1,679 @@
+CRITICAL - 2024-06-12 08:14:59 --> Undefined array key "id_trans"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 698)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6031): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 08:15:01 --> Undefined array key "id_trans"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 698)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6031): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 08:15:03 --> Undefined array key "id_trans"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(698): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 698)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6031): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 09:01:22 --> Undefined variable $lis
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6033): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 09:29:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5971): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 5971)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 09:30:59 --> Undefined variable $tid_akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5967): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5967)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 09:33:27 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:33:45 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:35:25 --> There is no data to insert.
+#0 C:\xampp\htdocs\kendaraan\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\xampp\htdocs\kendaraan\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-12 09:36:18 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:36:36 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:37:47 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-06-12 09:38:22 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:38:43 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:39:41 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:39:51 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:40:05 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:40:23 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:41:25 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:47:32 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5984): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:47:48 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5984): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:47:59 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-06-12 09:48:08 --> CodeIgniter\BaseModel::doProtectFields(): Argument #1 ($data) must be of type array, string given, called in C:\xampp\htdocs\kendaraan\system\BaseModel.php on line 918
+#0 C:\xampp\htdocs\kendaraan\system\BaseModel.php(918): CodeIgniter\BaseModel->doProtectFields('1')
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5984): CodeIgniter\BaseModel->updateBatch(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 09:48:25 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5984): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:48:35 --> You must specify an index to match on for batch updates.
+#0 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, NULL, 100)
+#1 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, NULL, 100, false)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch(Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 09:50:31 --> CodeIgniter\BaseModel::updateBatch(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php on line 5985
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5985): CodeIgniter\BaseModel->updateBatch('personil_mess', Array, 'id_personil_mes...')
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 10:33:27 --> Undefined array key "atas_nama"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(226): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 226)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6020): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 10:33:47 --> Undefined array key "atas_nama"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 231)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6020): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 10:34:05 --> Undefined array key "jenis_kelamin"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 234)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6020): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 10:55:56 --> Undefined array key "filter_k1"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6020): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 10:57:31 --> Undefined array key "filter_k1"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6020): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 10:57:46 --> Undefined array key "filter_k1"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6020): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 11:10:30 --> Undefined variable $test
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 228)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6020): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 11:25:57 --> Undefined variable $kamar_mess
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6002): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6002)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 11:26:27 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-06-12 11:45:57 --> Undefined variable $session
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6012): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6012)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 13:09:27 --> Undefined variable $m_conf
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 236)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6028): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 13:12:55 --> Undefined property: Config\App::$appTimezone
+#0 C:\xampp\htdocs\kendaraan\system\Common.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\kendaraan\system\Debug\Toolbar\Collectors\Config.php(36): app_timezone()
+#2 C:\xampp\htdocs\kendaraan\system\Debug\Toolbar.php(156): CodeIgniter\Debug\Toolbar\Collectors\Config::display()
+#3 C:\xampp\htdocs\kendaraan\system\Debug\Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1718172774.8113, 0.0794, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\xampp\htdocs\kendaraan\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\xampp\htdocs\kendaraan\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('set_mess_jkt/1/...', 'after')
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 13:25:42 --> Undefined variable $tid_akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5991): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5991)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 13:28:21 --> Unclosed '{' on line 217
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6026): view('transaksi/v_set...', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-06-12 13:35:11 --> Call to a member function format() on bool
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(168): tanggal('2024-06-12')
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6026): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 13:35:33 --> Call to a member function format() on bool
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(168): tanggal_kendaraan('2024-06-12')
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6026): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 13:41:08 --> Undefined variable $mess_confirm
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 270)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6021): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-06-12 13:48:43 --> Column 'id_trans' in field list is ambiguous
+CRITICAL - 2024-06-12 13:48:43 --> Column 'id_trans' in field list is ambiguous
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tran...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tran...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tran...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_tran...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6006): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-12 13:49:05 --> Column 'atas_nama' in field list is ambiguous
+CRITICAL - 2024-06-12 13:49:05 --> Column 'atas_nama' in field list is ambiguous
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `personi...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `personi...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `personi...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `personi...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6006): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#8 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-06-12 14:12:14 --> Undefined array key "kamar_mess"
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5975): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 5975)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 14:47:14 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6093): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6093)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 14:48:18 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6093): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6093)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 14:48:33 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6093): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6093)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 14:51:09 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6093): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6093)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 15:16:31 --> Undefined array key "id_akomodasi"
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6127): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 15:44:03 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6221)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('1', '1', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 16:03:18 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6092): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6092)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 16:05:42 --> CodeIgniter\BaseModel::updateBatch(): Argument #1 ($set) must be of type ?array, string given, called in C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php on line 6093
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6093): CodeIgniter\BaseModel->updateBatch('', 'id_personil_mes...')
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 16:06:12 --> One or more rows submitted for batch updating is missing the specified index.
+#0 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(2014): CodeIgniter\Database\BaseBuilder->setUpdateBatch(Array, 'id_personil_mes...')
+#1 C:\xampp\htdocs\kendaraan\system\Model.php(316): CodeIgniter\Database\BaseBuilder->updateBatch(Array, 'id_personil_mes...', 100)
+#2 C:\xampp\htdocs\kendaraan\system\BaseModel.php(931): CodeIgniter\Model->doUpdateBatch(Array, 'id_personil_mes...', 100, false)
+#3 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6093): CodeIgniter\BaseModel->updateBatch(Array, 'id_personil_mes...')
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-06-12 16:08:35 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6097): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6097)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 16:09:14 --> Undefined variable $akomodasi
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6099): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6099)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 16:09:45 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(95): strtotime(Array)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_indo(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:10:59 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(115): strtotime(Array)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:11:17 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(115): strtotime(Array)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:11:45 --> strtotime(): Argument #1 ($datetime) must be of type string, array given
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(119): strtotime(Array)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:12:52 --> Undefined variable $bandeng
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:13:03 --> Undefined variable $bandeng
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:13:23 --> Undefined variable $bandeng
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:13:46 --> Undefined variable $bandeng
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:14:37 --> Undefined variable $bandung
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 122)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:14:48 --> Undefined variable $bandung
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:14:54 --> Undefined variable $bandung
+#0 C:\xampp\htdocs\kendaraan\app\Helpers\global_fungsi_helper.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 123)
+#1 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): tanggal_foreach(Array)
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-06-12 16:15:18 --> Array to string conversion
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6095): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 6095)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 19:45:18 --> Undefined variable $id_personil_mess
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6240): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-06-12 19:45:40 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`akomodasi`, CONSTRAINT `akomodasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `trans` (`id_trans`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2024-06-12 19:45:40 --> Cannot add or update a child row: a foreign key constraint fails (`db_kendaraan`.`akomodasi`, CONSTRAINT `akomodasi_ibfk_1` FOREIGN KEY (`id_trans`) REFERENCES `trans` (`id_trans`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\kendaraan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ak...', 0)
+#1 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 C:\xampp\htdocs\kendaraan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 C:\xampp\htdocs\kendaraan\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 C:\xampp\htdocs\kendaraan\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\kendaraan\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\kendaraan\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\kendaraan\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5955): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#10 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#11 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2024-06-12 20:15:18 --> Undefined variable $id_personil_mess
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(5984): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5984)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-06-12 21:11:47 --> Undefined variable $tan
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(807): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 807)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6245): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 21:18:58 --> Undefined variable $lme
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6245): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-12 21:24:11 --> Undefined variable $list_mess
+#0 C:\xampp\htdocs\kendaraan\app\Views\transaksi\v_set_mess_jkt.php(762): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 762)
+#1 C:\xampp\htdocs\kendaraan\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kendaraan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_set...', Array, true)
+#4 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(6247): view('transaksi/v_set...', Array)
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->set_mess_jkt('2', '2', '')
+#6 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#7 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

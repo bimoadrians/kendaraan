@@ -1,0 +1,48 @@
+CRITICAL - 2024-02-02 08:55:36 --> Invalid file: transaksi/v_trans_copy.php
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/v_tra...')
+#1 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_tra...', Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(204): view('transaksi/v_tra...', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-02 14:04:41 --> Undefined variable $aturan
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 180)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-02 14:04:58 --> Undefined variable $aturan
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 180)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-02-02 15:33:26 --> Invalid file: ui/v_header.php
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_header.php')
+#1 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_header', Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(205): view('ui/v_header', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-02 15:33:28 --> Invalid file: ui/v_header.php
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ui/v_header.php')
+#1 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('ui/v_header', Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(205): view('ui/v_header', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-02 16:35:35 --> Undefined variable $aturan
+#0 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 180)
+#1 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#2 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

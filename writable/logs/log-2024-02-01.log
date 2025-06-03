@@ -1,0 +1,18 @@
+CRITICAL - 2024-02-01 16:23:15 --> Invalid file: transaksi/v_header.php
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/v_hea...')
+#1 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_hea...', Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(203): view('transaksi/v_hea...', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-02-01 16:23:20 --> Invalid file: transaksi/v_header.php
+#0 C:\xampp\htdocs\kendaraan\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi/v_hea...')
+#1 C:\xampp\htdocs\kendaraan\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/v_hea...', Array, true)
+#2 C:\xampp\htdocs\kendaraan\app\Controllers\Admin\Transaksi.php(203): view('transaksi/v_hea...', Array)
+#3 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(832): App\Controllers\Admin\Transaksi->trans()
+#4 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Transaksi))
+#5 C:\xampp\htdocs\kendaraan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kendaraan\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
